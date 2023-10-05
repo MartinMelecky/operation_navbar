@@ -39,7 +39,7 @@ body {
     margin: 0 0.25rem;
 }
 #navbar ul li a:hover {
-    background-color: green;
+    background-color: yellow;
     border-radius: 5px;
     color: black;
 }
