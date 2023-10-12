@@ -1,28 +1,30 @@
 
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pathway Gothic One', sans-serif;
 }
 #logo {
     font-weight: bold;
     font-size: 2rem;
 }
 .text-primary {
-    color: chartreuse;
+    color: rgb(171, 184, 0);
 }
 #navbar {
+    position: fixed;
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     flex-wrap: wrap;
+    width: 100%;
     
 }
 #navbar a {
@@ -98,3 +100,42 @@ body {
     background-color: #333;
     color: white;
 }
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.py-1 {
+    padding: 1.5rem 0;
+}
+.py-2 {
+    padding: 2rem 0;
+}
+.py-3 {
+    padding: 3rem 0;
+}
+#what .items {
+    display: flex;
+    padding: 1rem;
+}
+#what .item {
+    text-align: center;
+    padding: 1rem;
+}
+#what .items .item i {
+    background: yellow;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
