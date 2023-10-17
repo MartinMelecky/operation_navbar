@@ -103,8 +103,9 @@ body {
 .container {
     max-width: 1100px;
     margin: auto;
-    padding: 0 2rem;
+    padding: 1rem;
     overflow: hidden;
+    text-align: center;
 }
 
 .text-center {
@@ -127,10 +128,13 @@ body {
 #what .items {
     display: flex;
     padding: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    justify-content: space-between;
 }
 #what .item {
     text-align: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 #what .items .item i {
     background: yellow;
@@ -138,4 +142,42 @@ body {
     border-radius: 50%;
     margin-bottom: 1rem;
 }
+.bg-light {
+    background: rgb(128, 127, 127);
+    color: black;
+}
+.bg-dark {
+    background: #333;
+    color: white;
+}
+.py-1 {
+    padding: 1.5rem;
+}
+.py-2 {
+    padding: 2rem;
+
+}
+.py-3 {
+    padding: 3rem;
+}
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+
+}
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+#who {
+    display: flex;
+}
+#who div {
+    flex: 1;
+
+}
+#who .who-img {
+    background: url("../img/120524-science-crucifixion-130p.webp") no-repeat center/cover;
+}
+
 
