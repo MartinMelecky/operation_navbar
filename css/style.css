@@ -11,7 +11,7 @@ body {
 }
 #logo {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .text-primary {
     color: rgb(171, 184, 0);
@@ -38,13 +38,13 @@ body {
 }
 
 #navbar ul li a {
-    padding: 0.75rem;
+    padding: 2px;
     margin: 0 0.25rem;
     font-size: 20px;
 }
 #navbar ul li a:hover {
     background-color: yellow;
-    border-radius: 5px;
+    border-radius: 2px;
     color: black;
 }
 
@@ -128,13 +128,11 @@ body {
 #what .items {
     display: flex;
     padding: 1rem;
-    margin-left: 8rem;
-    margin-right: 8rem;
     justify-content: space-between;
 }
 #what .item {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 #what .items .item i {
     background: yellow;
