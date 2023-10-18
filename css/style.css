@@ -177,5 +177,18 @@ body {
 #who .who-img {
     background: url("../img/120524-science-crucifixion-130p.webp") no-repeat center/cover;
 }
+.tabula {
+    text-align: center;
+    justify-content: center;
 
-
+}
+.tabula th {
+    border: solid;
+    border-collapse: collapse;
+    font-size: 25px;
+}
+.tabula tr {
+    border: solid;
+    border-collapse: collapse;
+    font-size: 25px;
+}
