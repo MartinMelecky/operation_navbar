@@ -177,18 +177,36 @@ body {
 #who .who-img {
     background: url("../img/120524-science-crucifixion-130p.webp") no-repeat center/cover;
 }
-.tabula {
-    text-align: center;
-    justify-content: center;
+table {
+    border: 0.125rem solid;
+    border-collapse: collapse;
+    background-color:var(--table-background)
+}
 
-}
-.tabula th {
-    border: solid;
+th {
+    height: 2rem;
+    width: 10%;
+    text-align: center;
+    padding: 0.188rem;
+    border: 0.125rem solid;
+    border-bottom: 0.125rem solid;
     border-collapse: collapse;
-    font-size: 25px;
+    background-color: yellow
 }
-.tabula tr {
-    border: solid;
-    border-collapse: collapse;
-    font-size: 25px;
+
+td {
+    height: 2rem;
+    width: 10%;
+    text-align: center;
+    padding: 0.188rem;
+    border-bottom: 0.063rem solid #ddd
+}
+
+tr:hover {
+    background-color: lightgray
+}
+.center {
+    margin:auto;
+    width:50%;
+    padding:1rem;
 }
