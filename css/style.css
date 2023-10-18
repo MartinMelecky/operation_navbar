@@ -172,11 +172,9 @@ body {
 }
 #who div {
     flex: 1;
-    margin-left: 150px;
 }
 #who .who-img {
     background: url("../img/120524-science-crucifixion-130p.webp") no-repeat center/cover;
-    margin-left: 150px;
 }
 table {
     border: 0.125rem solid;
