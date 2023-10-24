@@ -297,8 +297,18 @@ tr:hover {
 }
 #strz {
     background: #333 url("../img/024.Jacob_Wrestles_with_the_Angel.jpg") no-repeat center center/cover;
-    height: 100vh;
+    height: 200vh;
     color: white;
+    
+}
+#strz .straz {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    padding-right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .sidenav {
     height: 100%;
@@ -361,4 +371,27 @@ tr:hover {
     color: black;
     background-color: yellow;
   }
-  
+  .kap {
+    margin-left: 150px;
+    color: red;
+    font-size: 20px
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+#showcase1 {
+    background: #333 url("../img/024.Jacob_Wrestles_with_the_Angel.jpg") no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    z-index: 5;
+}
+#showcase1 .showcase-content1 {
+    display: flex;
+    
+    text-align: center;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
