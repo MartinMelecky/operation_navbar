@@ -312,10 +312,10 @@ tr:hover {
 }
 .sidenav {
     height: 100%;
-    width: 150px;
-    position: static;
+    width: 170px;
+    position: fixed;
     z-index: 1;
-    top: 0;
+    top: 75px;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
@@ -324,11 +324,11 @@ tr:hover {
   
   /* Style the sidenav links and the dropdown button */
   .sidenav a, .dropdown-btn {
-    padding: 6px 8px 6px 16px;
+    padding: 6px 8px 6px 10px;
     text-decoration: none;
     font-size: 20px;
     color: white;
-    display: block;
+    display: flex;
     border: none;
     background: none;
     width:100%;
@@ -374,7 +374,10 @@ tr:hover {
   .kap {
     margin-left: 150px;
     color: red;
-    font-size: 20px
+    font-size: 20px;
+    margin-top: 170px;
+    padding: 0 4rem;
+    
   }
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -394,4 +397,44 @@ tr:hover {
     height: 100%;
 
     background-color: rgba(0, 0, 0, 0.5);
+}
+#navbar2 {
+    position: fixed;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+    z-index: 3;
+}
+#navbar2 a {
+    color:white;
+    text-decoration: none;
+}
+#navbar2 ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar2 ul li a {
+    padding: 2px;
+    margin: 0 0.25rem;
+    font-size: 19px;
+}
+#navbar2 ul li a:hover {
+    background-color: yellow;
+    border-radius: 2px;
+    color: black;
+}
+
+@media only screen and (max-width: 700px) {
+    #navbar2 ul {
+        margin-top: 1rem;
+    }
+}
+#navbar2 a {
+    color: white;
 }
