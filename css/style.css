@@ -294,3 +294,8 @@ tr:hover {
 #zakon{
     display: flex;
 }
+#strz {
+    background: #333 url("../img/024.Jacob_Wrestles_with_the_Angel.jpg") no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+}
