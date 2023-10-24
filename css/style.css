@@ -251,3 +251,46 @@ tr:hover {
 #navbar1 a {
     color: white;
 }
+.split-btn{
+    display: flex;
+    width: 30px;
+    height: 40px;
+}
+.split-btn button{
+    font-size: 1rem;
+    background-color: yellow;
+    color: #000;
+    border-style: none;
+    padding: 8px 16px;
+    border-radius: 4px 0 0 4px;
+}
+.split-btn .dropdown{
+    border-left:1px solid #ddd;
+}
+.split-btn .dropdown button{
+    height: 100%;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+.split-btn .dropdown .dropdown-content{
+    position: absolute;
+    display: none;
+}
+.split-btn .dropdown:hover .dropdown-content{
+    display: block;
+    font-size: 0.8em;
+
+}
+.split-btn .dropdown .dropdown-content a{
+    display: block;
+    background-color:#333 ;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.split-btn .dropdown .dropdown-content a:hover{
+    background-color: #ddd;
+}
+#zakon{
+    display: flex;
+}
