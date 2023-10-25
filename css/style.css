@@ -381,7 +381,14 @@ tr:hover {
   }
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav a {font-size: 10px;}
+  }
+  @media  screen and (max-width: 625px) {
+    .sidenav {padding-top: 40px;}
+    .sidenav a {font-size: 10px;}
+    .sidenav .dropdown-btn {font-size: 15px;}
+    .sidenav {width: 140px;}
+    
   }
 
 #showcase1 {
