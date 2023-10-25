@@ -383,7 +383,7 @@ tr:hover {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 10px;}
   }
-  @media  screen and (max-width: 625px) {
+  @media  screen and (max-width: 725px) {
     .sidenav {padding-top: 40px;}
     .sidenav a {font-size: 10px;}
     .sidenav .dropdown-btn {font-size: 12px;}
