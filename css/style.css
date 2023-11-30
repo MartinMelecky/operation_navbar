@@ -301,7 +301,7 @@ tr {
     display: flex;
 }
 #strz {
-    background: #333 url("../img/024.Jacob_Wrestles_with_the_Angel.jpg") no-repeat center center/cover;
+    background: #333 url("../img/001.The_Creation_of_Light.jpg") no-repeat center center/cover;
     height: 200vh;
     color: white;
     
@@ -536,4 +536,9 @@ tr {
     text-align: center;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
+}
+.upozorneni {
+    margin-top: 100px;
+    color: red;
+    font-size: 25px;
 }
