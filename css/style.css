@@ -542,3 +542,12 @@ tr {
     color: red;
     font-size: 25px;
 }
+@media screen and (max-width: 725px) {
+    .upozorneni{font-size: 15px;}
+    .upozorneni {padding: 4px;}
+    .upozorneni {margin-top: 0px;}
+    .upozorneni {margin-left: 130px;}
+    .upozorneni {margin-right: 10px;}
+
+}
+    
