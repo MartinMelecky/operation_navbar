@@ -519,12 +519,14 @@ tr {
       position: absolute;
       right: 0;
       top: 0;
+
     }
     .topnav.responsive a {
       float: none;
       display: block;
       text-align: left;
     }
+
   }
   #showcase2 {
     background: #333 url("../img/001.The_Creation_of_Light.jpg") no-repeat center center/cover;
