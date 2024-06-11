@@ -93,9 +93,9 @@ p {
     border: 1px black solid;
     background-color: #ddd;
     margin: 10px;
-
+    color: black;
     opacity: 0;
-    transition: all 1s;
+    transition: all 0.5s;
     transform: translateY(30%) scale(0.95);
 }
 
@@ -105,7 +105,7 @@ p {
 }
 
 #what .items .item i {
-    background: #93cb52;
+    background: yellow;
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
