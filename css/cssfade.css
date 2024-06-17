@@ -84,6 +84,7 @@ p {
 #what .items {
     display: flex;
     padding: 1rem;
+    z-index: 1;
 }
 
 #what .item {

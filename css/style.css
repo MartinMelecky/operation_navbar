@@ -25,6 +25,7 @@ body {
     padding: 1rem;
     flex-wrap: wrap;
     width: 100%;
+    z-index: 2;
     
 }
 #navbar a {
@@ -130,16 +131,19 @@ body {
     display: flex;
     padding: 1rem;
     justify-content: space-between;
+    z-index: -1;
 }
 #what .item {
     text-align: center;
     padding: 1rem;
+    z-index: 0;
 }
 #what .items .item i {
     background: yellow;
     padding: 1rem;
     border-radius: 50%;
     margin-bottom: 1rem;
+
 }
 .bg-light {
     background: rgb(128, 127, 127);
@@ -490,7 +494,7 @@ tr {
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: yellow;
+
     color: black;
   }
   
