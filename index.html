@@ -139,22 +139,22 @@ function checkSlide() {
 window.addEventListener('scroll', debounce(checkSlide));
 
 
-      //  var example = ['A', 'B', 'C', 'D'];
+        var example = ['Římanům 8 18 Soudím totiž, že utrpení nynějšího času se nedají srovnat s budoucí slávou, která má být na nás zjevena.', 'Žalmy 118 8 Lépe utíkat se k Hospodinu, než doufat v člověka.', 'Matouš 6 22-23 Světlem těla je oko. Je-li tedy tvé oko čisté, celé tvé tělo bude mít světlo. Je-li však tvé oko špatné, celé tvé tělo bude ve tmě. Jestliže i světlo v tobě je temné, jak velká bude potom tma', 'Žalmy 23 4 I když půjdu roklí šeré smrti, nebudu se bát ničeho zlého, vždyť se mnou jsi ty. Tvoje berla a tvá hůl mě potěšují.', 'Kazatel 7 20 Není na zemi člověka spravedlivého, aby konal dobro a nehřešil.'];
 
-     //   textSequence(0);
-    //    function textSequence(i) {
+       textSequence(0);
+       function textSequence(i) {
 
-      //      if (example.length > i) {
-      //          setTimeout(function() {
-      //              document.getElementById("sequence").innerHTML = example[i];
-     //               textSequence(++i);
-       //         }, 9000); // 1 second (in milliseconds)
+           if (example.length > i) {
+               setTimeout(function() {
+                   document.getElementById("sequence").innerHTML = example[i];
+                  textSequence(++i);
+               }, 7000); // 1 second (in milliseconds)
 
-      //      } else if (example.length == i) { // Loop
-      //          textSequence(0);
-       //     }
+           } else if (example.length == i) { // Loop
+               textSequence(0);
+           }
 
-       // } 
+     } 
 
 
 
