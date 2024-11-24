@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Pathway Gothic One', sans-serif;
 }
@@ -381,9 +382,9 @@ tr {
     background-color: yellow;
   } 
   .kap {
-    margin-left: 170px;
+    margin-left: 10px;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 0px;
     padding: 0 4rem;
     padding: 10px 30px 0px 30px;
@@ -400,7 +401,6 @@ tr {
     .sidenav {top: 60px;}
     .kap {padding: 4px;}
     .kap {margin-top: 0px;}
-    .kap {margin-left: 130px;}
     .kap {margin-right: 10px;}
     .kap {font-size: 15px;}
     
@@ -468,13 +468,12 @@ tr {
     margin-bottom: 0.75rem;
     line-height: 1.1;
     text-align: center;
-    margin-left: 170px;
     margin-top: 100px;
     padding: 0px 30px 0px 30px;
 }
 @media screen and (max-width: 725px) {
     .knihy {font-size: 40px;}
-    .knihy {margin-left: 120px;}
+
 }
 .topnav {
     background-color: black;
@@ -712,3 +711,28 @@ padding: 5px;
 }
 } 
 */
+.btn-group button {
+    background-color: yellow; /* Green background */
+    border: 1px solid gray; /* Green border */
+    color: black; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: black;
+    color: yellow;
+  }
